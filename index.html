@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .assignments {
+            display: grid;
+            gap: 15px;
+        }
+
+        .assignment {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .assignment a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        .assignment:hover {
+            transform: scale(1.05);
+            background: #ffdde1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📚 Upcoming Assignments</h1>
+        <div class="assignments">
+            <div class="assignment"><a href="https://google.com" target="_blank">Assignment 1</a></div>
+            <div class="assignment"><a href="https://google.com" target="_blank">Assignment 2</a></div>
+            <div class="assignment"><a href="https://google.com" target="_blank">Assignment 3</a></div>
+            <div class="assignment"><a href="https://google.com" target="_blank">Assignment 4</a></div>
+            <div class="assignment"><a href="https://google.com" target="_blank">Assignment 5</a></div>
+            <div class="assignment"><a href="https://google.com" target="_blank">Assignment 6</a></div>
+        </div>
+    </div>
+
+</body>
+</html>
